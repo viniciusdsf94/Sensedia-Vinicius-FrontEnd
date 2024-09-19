@@ -6,6 +6,7 @@
     "jsx": "react-jsx",
     "noEmit": true,
     "strict": true,
+    "outDir": "./build",
     "skipLibCheck": true,
     "isolatedModules": true,
     "resolveJsonModule": true,
