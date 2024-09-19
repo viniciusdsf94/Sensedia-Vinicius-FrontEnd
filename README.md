@@ -1,3 +1,5 @@
+<img src="https://sensedia-vinicius-front-end.vercel.app/foto-site.png">
+
 Vercel Site:
 https://sensedia-vinicius-front-end.vercel.app/
 
