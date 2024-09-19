@@ -43,6 +43,16 @@ export const GlobalStyle = createGlobalStyle`
     background-color: var(--primary-subtle-2);
   }
 
+  input[type='text'],
+  input[type='number'],
+  textarea {
+    font-size: 16px;
+}
+
+  button{
+  color:var(--primary);
+  }
+
 
     
 `;

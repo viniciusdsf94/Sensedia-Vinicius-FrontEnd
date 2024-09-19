@@ -3,7 +3,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { User } from '../types';
-import { FaPhoneAlt, FaUser } from 'react-icons/fa';
+import { FaEnvelope, FaPhoneAlt, FaUser } from 'react-icons/fa';
 // import { IoIosMail } from 'react-icons/io';
 
 //recebe uma lista da interface User criada no types.tsx
@@ -63,7 +63,7 @@ export const CardView: React.FC<CardViewProps> = ({ users }) => {
             {user.name}
             </TitleCard>
           <TextCard>
-            {/* <IoIosMail /> */}
+          <FaEnvelope />
             {user.email}
             </TextCard>
           <TextCard>
